@@ -1,0 +1,523 @@
+.special-offer-you img{
+	padding: 0 !important;
+	width: 100%;
+}
+.special-offer-you .product-image-container{
+    background: transparent;
+}
+.special-offer-you .product-grid{
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.special-offer-you .product-card{
+    width: 32.33%;
+    padding: 0;
+    flex: 0 0 32.33%;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.special-offer-you .product-details{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+}
+.special-offer-you .product-description{
+	color: #FFF;
+	text-align: left;
+	font-size: 15px;
+	font-style: normal;
+	padding: 0 10px;
+	margin-bottom: 5px;
+	font-weight: 700;
+	line-height: 19.8px;
+	letter-spacing: 0.24px;
+}
+.special-offer-you .product-card .star-rating,.special-offer-you .color-choice{
+	padding: 0 10px;
+}
+.special-offer-you .product-price{
+	margin-bottom: 5px;
+}
+.special-offer-you .product-card .star-rating svg{
+	color: #fff;
+}
+.special-offer-you .add-to-cart-button{
+	background: #FE2B54;
+	border: 1px solid #FE2B54;
+}
+.sidebar{
+	padding: 0 10px;
+	min-width: 250px;
+}
+.sidebar .card .card-header h4{
+	color: var(--Dark-blue, #050B23);
+	font-family: Roboto Condensed;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	padding: 10px 10px 14px;
+	line-height: normal;
+	letter-spacing: 1.68px;
+	margin: 0;
+}
+.sidebar .card .card-header{
+	border-bottom: 5px solid #050B23;
+}
+.sidebar .card .colors h5,.sidebar .card .size h5,.sidebar .card .price-range h5{
+	color: var(--Dark-blue, #050B23);
+	font-family: Roboto Condensed;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 1.68px;
+	border-bottom: 0.65px solid #050B23;
+	max-width:160px;
+	margin-bottom: 1rem;
+}
+.sidebar .card .colors .colors-div,.sidebar .card .size .size-div{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 7px;
+}
+.sidebar .card .colors .colors-div span{
+	width: 27px;
+	height: 27px;
+	display: block;
+	background: #D9D9D9;
+}
+.sidebar .card .size .size-div span{
+	display: flex;
+	width: 47px;
+	padding: 13px 0;
+	justify-content: center;
+	align-items: flex-start;
+	border: 1px solid #000;
+	background: #000;
+	color: #FFF;
+	text-align: center;
+	font-family: Arial;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 21px; /* 161.538% */
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.sidebar .card .price-range .price-range-div input{
+	width: 212px;
+	height: 33px;
+	flex-shrink: 0;
+	background: #F5F5F5;
+	color: #A9A9A9;
+	text-align: center;
+	font-family: Inter;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	border: 0;
+	margin-bottom: 10px;
+	padding: 0 1rem;
+	text-align: left;
+	appearance: none;
+	line-height: normal;
+}
+.tabs-bar .react-tabs__tab-list{
+	border-bottom: 0;
+}
+.tabs-bar .react-tabs__tab--selected{
+	background: #FE2B54 !important;
+	border-color: #FE2B54 !important;
+	color: #fff !important;
+}
+.tabs-bar .react-tabs__tab{
+	width: 178px;
+	height: 27px;
+	flex-shrink: 0;
+	background: #D9D9D9;
+	color: #949494;
+	text-align: center;
+	font-family: Inter;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 27px;
+	border-radius: 0;
+}
+.detail-product-grid  .product-details{
+	position: relative !important;
+	background: none;
+}
+.detail-product-grid  .product-details .product-description{
+	color: #5C5C5C;
+	font-family: Century Gothic;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 19.8px;
+	letter-spacing: 0.24px;
+	padding: 0;
+}
+.detail-product-grid .product-min{
+	color: #5C5C5C;
+	font-family: Century Gothic;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	display: block;
+	margin: 10px 0 12px;
+	line-height: 19.8px; /* 165% */
+	letter-spacing: 0.24px;
+}
+.detail-product-grid .star-rating{
+	padding: 0 !important;
+	justify-content: flex-start;
+}
+.detail-product-grid .star-rating svg{
+	color: #000 !important;
+}
+.product-detail-page{
+	display: flex;	
+}
+.detail-product-grid .product-price{
+	margin: 0;
+	margin-bottom: 0 !important;
+	color: #FE2B54;
+	text-align: center;
+	font-family: Century Gothic;
+	font-size: 29px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 19.8px; /* 68.276% */
+	letter-spacing: 0.24px;
+}
+.buttons{
+	align-items: center;
+}
+.detail-product-grid .product-card{
+	flex: 0 0 31.33%;
+}
+
+/* Cart Page CSS */
+.list-style-none{
+	list-style-type: none !important;
+}
+.breadcrumb li a{
+	color: #9C9C9C;
+	font-family: Century Gothic;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19.8px;
+	letter-spacing: 0.24px;
+	text-decoration: none;
+}
+.pink-text{
+	color: #FE2B54 !important;
+}
+.product-details-cart h2{
+	color: #5C5C5C;
+	font-family: Century Gothic;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.24px;
+}
+.product-details-cart h4{
+	color: #5C5C5C;
+	font-family: Century Gothic;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30.8px; /* 110% */
+	letter-spacing: 0.24px;
+}
+.product-details-cart p{
+	color: #5C5C5C;
+	font-family: Century Gothic;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19.8px; /* 165% */
+	letter-spacing: 0.24px;
+}
+.product-details-cart ul li{
+	color: #6B6B6B;
+	font-family: Century Gothic;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18.15px; /* 165% */
+	letter-spacing: 0.24px;
+	gap: 5px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+.pl-0{
+	padding-left: 0 !important;
+}
+/* End Here */
+
+/* Image Thumblins */
+.image-container {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 1rem;
+}
+.thumbnail-container {
+  flex: 1 1 auto;
+}
+.magnify-container {
+	margin: 0 1rem;
+	flex: 1 1 auto;
+	display: flex;
+	min-width: 540px;
+	line-height: 1;
+	height: auto;
+	background: #D9D9D9;
+	padding: 20px;
+}
+.product-content-container {
+  flex: 1 1 auto;
+}
+.thumbnails {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.thumbnail {
+  width: 168px;
+  height: 168px;
+  cursor: pointer;
+	margin-bottom: 1rem;
+	background: #D9D9D9;
+	padding: 10px 5px;
+}
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  object-position: 50% 50%;
+}
+.d-flex{
+	display: flex;
+}
+.gap-20{
+	gap: 20px;
+}
+.Price-tag{
+	font-size: 56px;
+	font-family: "Century Gothic";
+	font-weight: 700;
+	color: rgba(254, 43, 84, 1);
+	margin: 1rem 0;
+}
+.product-dress-size p{
+	font-size: 24px;
+	font-family: "Roboto Condensed";
+	font-weight: 700;
+	color: rgba(5, 11, 35, 1);
+	padding-bottom: 5px;
+	border-bottom: 1px solid #050B23;
+}
+.product-dress-size span{
+	font-size: 12px;
+	font-family: "Century Gothic";
+	font-weight: 400;
+	color: rgba(92, 92, 92, 1);
+	cursor: pointer;
+	width: auto;
+	padding: 10px 15px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 10px;
+	border: 1px solid #E7E7E7;
+	height: 20px;
+}
+.product-color-select p{
+	font-size: 24px;
+	font-family: "Roboto Condensed";
+	font-weight: 700;
+	color: rgba(5, 11, 35, 1);
+	padding-bottom: 5px;
+	border-bottom: 1px solid #050B23;
+}
+.product-color-select span{
+	display: inline-flex;	
+	cursor: pointer;
+	width: 66px;
+	height: 66px;
+	margin-right: 9px;
+}
+.add-to-cart-button-pr0duct{
+	font-size: 14px;
+	font-family: "Inter";
+	font-weight: 400;
+	color: rgba(255, 255, 255, 1);
+	width: 100%;
+	background: #111111 !important;
+	border-color: #111111 !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	margin: 30px 0;
+	height: 45px;
+}
+.buy-the-set{
+	background: #fff;
+	padding: 10px 30px;
+	box-shadow: 0px 1px 5px rgb(217 217 217 / 50%);
+	height: 100%;
+	width: 39%;
+	margin-top: -100px;
+}
+.buy-the-set h4{
+	font-size: 22px;
+	font-family: "Century Gothic";
+	font-weight: 700;
+	color: rgba(31, 31, 31, 1);
+	text-align: center;
+}
+.product-card-div{
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+.product-card-div img{
+	height: 221px;
+	object-fit: cover;
+	max-width: 160px;
+}
+.plus-icon{
+	width: 20px;
+	height: 20px;
+	background: #D9D9D9;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.plus-icon img{
+	width: auto !important;
+	height: auto !important;
+}
+.product-card-div .card-detail p{
+	font-size: 14px;
+	font-family: "Century Gothic";
+	font-weight: 700;
+	color: rgba(31, 31, 31, 1);
+	margin-bottom: 5px;
+}
+.product-card-div .card-detail span{
+	font-size: 14px;
+	font-family: "Century Gothic";
+	font-weight: 700;
+	color: rgba(31, 31, 31, 1);
+	display: inline-block;
+	margin-right: 5px;
+}
+.product-card-div .card-detail span del{
+	color: rgba(189, 189, 189, 1) !important;
+}
+.product-card-div .card-detail div{
+	font-size: 14px;
+	font-family: "Century Gothic";
+	font-weight: 400;
+	color: rgba(0, 0, 0, 1);
+	width: 100%;
+	padding: 10px;
+	margin-top: 10px;
+	border: 1px solid #E1E3E5;
+}
+.over-hidden{
+	overflow: hidden;
+}
+.add-to-cart-button-addtional{
+	font-size: 14px;
+	font-family: "Century Gothic";
+	font-weight: 700;
+	color: rgba(255, 255, 255, 1);
+	background: #000;
+	border-radius: 4px;
+	padding: 10px 20px;
+	text-decoration: none;
+	margin-right: 14px;
+}
+.cart-button-bottom{
+	margin-top: 30px;
+	border-top: 1px solid #E1E3E5;
+	padding: 11px 105px;
+	display: flex;
+	align-items: center;
+}
+.cart-button-bottom span{
+	font-size: 16px;
+	font-family: "Century Gothic";
+	font-weight: 700;
+	color: rgba(31, 31, 31, 1);
+	margin-right: 5px;
+}
+.cart-button-bottom span del{
+	color: rgba(189, 189, 189, 1);
+}
+.w-auto{
+	width: auto !important;
+}
+.stay-with-it{
+	padding: 10px 64px;
+	width: 60%;
+}
+.stay-with-it h4{
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	color: rgba(92, 92, 92, 1);
+}
+.align-items-center{
+	align-items: center;
+}
+.gap-32{
+	gap: 32px;
+}
+.img-text-with p{
+	font-size: 12.5px;
+	font-family: "Inter";
+	font-weight: 400;
+	color: rgba(92, 92, 92, 1);
+}
+.img-text-with p span{
+	font-size: 12px;
+	display: block;
+	margin-top: 10px;
+}
+.border-add-to-cart{
+	font-size: 14px;
+	font-family: "Inter";
+	font-weight: 400;
+	color: rgba(17, 17, 17, 1);
+	width: 160px;
+	height: 43px;
+	text-decoration: none;
+	border: 1px solid #111111;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.justify-content-between{
+	justify-content: space-between;
+}
+.more-items-cart{
+	margin-top: 20px;
+}
+.stay-with-it-section{
+	padding: 10px 2rem;
+	display: flex;
+}
+/* End Here */
