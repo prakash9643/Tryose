@@ -521,3 +521,130 @@
 	display: flex;
 }
 /* End Here */
+
+/* Custom review */
+.customer-review{
+	padding: 22px 2rem 68px;
+	border-top: 1px solid #111111;
+	border-bottom: 1px solid #111111;
+}
+.customer-review .customer-heading h4,.most-recent-review .customer-heading h4{
+	font-size: 18px;
+	text-align: center;
+	font-weight: 700;
+	color: rgba(92, 92, 92, 1);
+}
+.overall-rating{
+	padding: 35px 0;
+}
+.overall-rating,.write-review{
+	min-width: 387px;
+}
+.based-rating{
+	min-width: 517px;
+}
+.overall-rating .star-rating{
+	padding-right: 3px;
+}
+.star-rating svg{
+	fill: #F8B43E;
+	color: #F8B43E;
+	padding-right:3px;
+}
+.overall-rating p span{
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(17, 17, 17, 1);
+	text-decoration: underline;
+}
+.overall-rating span{
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(17, 17, 17, 1);
+}
+.based-rating ul{
+	padding: 0;
+	list-style-type: none;
+}
+.based-rating ul li{
+	display: flex;
+	align-items: center;
+	gap: 26px;
+	margin: 10px 0;
+	justify-content: center;
+}
+.based-rating .progress-bar{
+	width: 140px !important;
+}
+.based-rating .progress-bar div{
+	height: 14px !important;
+	border-radius: 0 !important;
+}
+.based-rating .progress-bar div span{
+	font-size: 0 !important;
+}
+.justify-content-evenly{
+	justify-content: space-evenly;
+}
+.most-recent-review{
+	padding: 22px 3rem;
+}
+.user-review{
+	align-items: center;
+	gap: 10px;
+}
+.user-image{
+	background: rgb(217, 217, 217);
+	padding: 6px;
+	width: 25px;
+	height: 25px;
+}
+.verified-sign{
+	background: #000000;
+	padding: 3px;
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+}
+.position-relative{
+	position: relative;
+}
+.text-left{
+	text-align: left !important;
+}
+.most-recent-review ul{
+	padding: 0;
+	list-style-type: none;
+}
+.most-recent-review ul li{
+	margin-bottom: 2rem;
+}
+.m-0{
+	margin: 0 !important;
+}
+.username{
+	font-size: 14px;
+	font-weight: 400;
+}
+.verified{
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 1);
+	background-color: #000000;
+	padding: 5px;
+}
+.mt-3{
+	margin-top: 1rem;
+}
+.trypose-reply{
+	padding: 10px 16px;
+	background: #EDF5F5;
+}
+.trypose-reply p{
+		font-size: 14px;
+		font-weight: 400;
+		color: rgba(92, 92, 92, 1);
+}
+/* End Here */

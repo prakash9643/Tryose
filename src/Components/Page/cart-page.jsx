@@ -11,7 +11,10 @@ import "./Product_detail.css";
 import EverydayShort from '../../Assests/everday-short.png';
 import EverydayShirt from '../../Assests/fabric-shirt.png';
 import Plus from '../../Assests/plus.svg';
+import User from '../../Assests/user.svg';
+import Verified from '../../Assests/verified.svg';
 import Stay from '../../Assests/stay-it-with.png';
+import ProgressBar from "@ramonak/react-progress-bar";
 const Cart = () => {
 	return (
 		<div>
@@ -186,6 +189,94 @@ const Cart = () => {
 				</div>
 				{/* End Here */}
 			</section>
+			{/* Customer reviews */}
+			<section className="customer-review">
+				<div className="customer-heading">
+					<h4>Customer Reviews</h4>
+				</div>
+				<div className="star-rating d-flex align-items-center justify-content-evenly">
+					<div className="overall-rating">
+						<p className="d-flex align-items-center">
+							<StarRating />
+							<span>5.00 out of 5</span>
+						</p>
+						<span>Based on 15 reviews</span>
+					</div>
+					<div className="based-rating">
+						<ul>
+							<li>
+								<StarRating />
+								<ProgressBar className="progress-bar" completed="100" />
+								<span>15</span>
+							</li>
+							<li>
+								<StarRating />
+								<ProgressBar className="progress-bar" completed="0" />
+								<span>0</span>
+							</li>
+							<li>
+								<StarRating />
+								<ProgressBar className="progress-bar" completed="0" />
+								<span>0</span>
+							</li>
+							<li>
+								<StarRating />
+								<ProgressBar className="progress-bar" completed="0" />
+								<span>0</span>
+							</li>
+							<li>
+								<StarRating />
+								<ProgressBar className="progress-bar" completed="0" />
+								<span>0</span>
+							</li>
+						</ul>
+					</div>
+					<div className="write-review">
+						<Link className="add-to-cart-button-pr0duct">
+							Write a review
+						</Link>
+					</div>
+				</div>
+			</section>
+			{/* End Here */}
+			{/* Most Recent Review */}
+			<section className="most-recent-review">
+				<div className="customer-heading">
+					<h4 className="text-left">Most Recent</h4>
+					<ul>
+						<li>
+							<StarRating />
+							<div className="user-review d-flex">
+								<p className="position-relative">
+									<img src={User} alt={User} className="user-image" />
+									<img src={Verified} alt={Verified} className="verified-sign" />
+								</p>
+								<span className="username">Matt R.</span>
+								<span className="verified">Verified</span>
+							</div>
+							<p className="m-0">The shirt fit perfect. Super comfy and can wear to the gym which is what I wanted</p>
+						</li>
+						<li>
+							<StarRating />
+							<div className="user-review d-flex">
+								<p className="position-relative">
+									<img src={User} alt={User} className="user-image" />
+									<img src={Verified} alt={Verified} className="verified-sign" />
+								</p>
+								<span className="username">Matt R.</span>
+								<span className="verified">Verified</span>
+							</div>
+							<p className="m-0">The shirt fit perfect. Super comfy and can wear to the gym which is what I wanted</p>
+							<img src={Stay} alt={Stay} className='mt-3' />
+							<div className="trypose-reply">
+								<p>>>Try pose Replied:</p>
+								<p>The colour looks great on you! Thanks again!</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			{/* End Here */}
 		</div>
 	);
 };
