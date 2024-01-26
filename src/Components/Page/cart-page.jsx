@@ -17,7 +17,7 @@ import Stay from '../../Assests/stay-it-with.png';
 import ProgressBar from "@ramonak/react-progress-bar";
 const Cart = () => {
 	return (
-		<div>
+		<div className="bg-gray py-2">
 			<section className="special-offer-you over-hidden">
 				{/* Breadrumbs */}
 				<ul className="list-style-none breadcrumb">

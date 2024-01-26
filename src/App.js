@@ -9,6 +9,7 @@ import Product_home from './Components/Page/Product_home';
 import Product_detail from './Components/Page/Product_detail';
 import Cart from './Components/Page/cart-page';
 import CartList from './Components/Page/cart-list-page';
+import Prodcut_Address from './Components/Page/Product-detail-address'
 
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -23,6 +24,7 @@ function App() {
       <Product_detail />
       <Cart />
       <CartList />
+      <Prodcut_Address />
       <NewSectionfooter />
       <Footer />
     </Router>

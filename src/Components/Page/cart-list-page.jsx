@@ -31,7 +31,7 @@ const productImages = [
 ];
 
 return (
-	<div>
+	<div className="bg-gray py-2">
 		<section className="special-offer-you">
 			<div className="homepage product-detail-page">
 				<div className="top-bar tabs-bar">

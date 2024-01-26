@@ -48,8 +48,9 @@
 	border: 1px solid #FE2B54;
 }
 .sidebar{
-	padding: 0 10px;
+	padding: 1rem 10px;
 	min-width: 250px;
+	background: #fff;
 }
 .sidebar .card .card-header h4{
 	color: var(--Dark-blue, #050B23);
@@ -647,4 +648,171 @@
 		font-weight: 400;
 		color: rgba(92, 92, 92, 1);
 }
+.bg-gray{
+	background: #f2f2f2;
+}
+.py-2{
+	padding: 2rem 0;
+}
+/* End Here */
+
+
+/* User Details Css */
+.address-card-details{
+	background: #fff;
+	padding: 2rem 4rem;
+}
+.px-3{
+	padding-right: 3rem;
+	padding-left: 3rem;
+}
+.upperheder h4{
+	font-size: 20px;
+	font-family: "Poppins";
+	font-weight: 600;
+	color: rgba(23, 24, 59, 1);
+}
+.address-card-details .form-contol{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.address-card-details .form-contol input{
+	width: 50%;
+	height: 48px;
+	border: 1px solid #D9D9D9;
+	border-radius: 5px;
+	padding: 0 20px;
+}
+.address-card-details .form-contol{
+	margin-bottom: 1.5rem;
+}
+.address-card-details .form-contol .pincode-input{
+	width: 58px !important;
+}
+.pin-code-input .w-100{
+	width: 100% !important;
+}
+.pin-code-input{
+	width: 53%;
+	display: flex;
+	gap: 10px;
+}
+.card-saved-details .radio{
+	padding: 24px;
+	border-radius: 7px;
+	margin-bottom: 24px;
+	background: #F6F6F6;
+}
+.card-saved-details .radio label{
+	font-size: 18px;
+	font-weight: 400;
+	color: rgba(23, 24, 59, 1);
+}
+.card-saved-details .radio label input{
+	margin-right: 16px;
+}
+.add-validity{
+	padding: 4px 8px;
+	border-radius: 4px;
+	background:Black;
+	font-size: 12px;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 1);
+	margin-left: 24px;
+}
+.edit-dlete-add p{
+	font-size: 16px;
+	margin: 0;
+	font-weight: 400;
+	color: rgba(23, 24, 59, 1);
+}
+.edit-dlete-add img{
+	margin-left: 24px;
+}
+.radio p{
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(23, 24, 59, 1);
+	margin: 10px 3rem 0;
+}
+.form__radio-input {
+	display: none;
+  }
+  
+  .form__label-radio {
+	font-size: 1.6rem;
+	cursor: pointer;
+	position: relative;
+	padding-left: 3rem;
+  }
+  
+  .form__radio-button {
+	height: 22px;
+	width: 22px;
+	border: 3px solid #000;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: -4px;
+  }
+  .form__radio-button::after {
+	content: "";
+	display: block;
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 51%;
+	transform: translate(-50%, -50%);
+	background-color: #000;
+	opacity: 0;
+	transition: opacity 0.2s;
+  }
+  
+  .form__radio-input:checked ~ .form__label-radio .form__radio-button::after {
+	opacity: 1;
+  }
+  .add-new-address{
+	text-align: center;
+	padding: 48px 0;
+  }
+  .add-new-address span{
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 1);
+	display: block;
+	width: 100%;
+	position: relative;
+	z-index: 9;
+  }
+  .add-new-address span::before,.add-new-address span::after{
+	  content: '';
+	  position: absolute;
+	  width: 100%;
+	  border: 1px dashed #000000;
+	  left: 0;
+	  top: 16px;
+	  z-index: -1;
+  }
+  .add-new-address span img{
+	width: 14px;
+	height: 14px;
+	background: #000000;
+	padding: 10px;
+	border-radius: 50%;
+  }
+  .order-details{
+	padding: 3rem;
+  }
+  .delivered-way{
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 1);
+	padding: 8px 15px;
+	position: absolute;
+	right: 0;
+  }
 /* End Here */
