@@ -10,6 +10,7 @@ import Product_detail from './Components/Page/Product_detail';
 import Cart from './Components/Page/cart-page';
 import CartList from './Components/Page/cart-list-page';
 import Prodcut_Address from './Components/Page/Product-detail-address'
+import Checkout from './Components/Page/checkout'
 
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -25,6 +26,7 @@ function App() {
       <Cart />
       <CartList />
       <Prodcut_Address />
+      <Checkout />
       <NewSectionfooter />
       <Footer />
     </Router>
