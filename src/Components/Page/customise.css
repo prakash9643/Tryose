@@ -1,0 +1,150 @@
+.fashoin-banner{
+	background: #000;
+	padding: 26px 3rem 0;
+}
+.fashion-body-text h1{
+	font-size: 40px;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 1);
+	margin: 0 0 5px;
+}
+.fashion-body-text h3{
+	font-size: 40px;
+	font-weight: 700;
+	color: rgba(254, 43, 84, 1);
+	margin: 0 0 18px;
+}
+.fashion-body-text button{
+	font-size: 13px;
+	background: #FE2B54;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 1);
+	padding: 13px 40px;
+	border: 0;
+	margin-bottom: 20px;
+}
+.gap-50{
+	gap: 50px;
+}
+.select-size-gender{
+	padding: 36px 3rem;
+	background: #FE2B54;
+}
+.select-size-gender .select-gender{
+	background: #fff;
+	padding: 0 13px;
+	min-width: 600px;
+	height: 71px;
+	display: flex;
+	align-items: center;
+}
+.select-size-gender .select-gender select{
+	font-size: 18px;
+	font-weight: 700;
+	color: rgba(0, 0, 0, 1);
+	background: transparent;
+	border: 0;
+	padding: 13px;
+	min-width: 300px;
+	text-align: center;
+	border-right: 1px solid #CDCDCD !important;
+	margin-right: 1rem;
+}
+.select-size-gender .select-gender select:focus-visible{
+	outline: 0;
+}
+.select-size-gender .select-gender button{
+	font-size: 13px;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 1);
+	padding: 13px 40px;
+	background: #000000;
+	border: 0;
+}
+.experience-trail{
+	background: #000000;
+	padding: 21px 24px;
+	display: flex;
+	align-items: center;
+	gap: 50px;
+	margin: 42px auto 0;
+	max-width: 700px;
+}
+.experience-trail .trail-img{
+	width: 86px;
+	height: 86px;
+	border-radius: 4px;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.experience-trail .trail-text span{
+	font-size: 20px;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 1);
+}
+.experience-trail .trail-text h4{
+	font-size: 40px;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 1);
+	margin: 0;
+}
+.imag-screening{
+	background: url('../../Assests/bg-blur.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 800px;
+	padding: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.add-camera-section{
+	padding: 40px 3rem;
+}
+.add-camera-section .turn-camera{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 96px;
+}
+.add-camera-section .showing-image button{
+	font-size: 13px;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 1);
+	padding: 13px 40px;
+	background: #000000;
+	border: 0;
+	text-transform: uppercase;
+	display: block;
+	margin: 0 auto;
+}
+.bottom-design-section{
+	background: #25F4EE;
+	padding: 0 147px 0 105px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 12rem;
+	height: 371px;
+	position: relative;
+}
+.bottom-design-section .own-clothes h4{
+	font-size: 40px;
+	font-weight: 700;
+	color: rgba(0, 0, 0, 1);
+	margin: 0 0 20px;
+}
+.bottom-design-section .own-clothes button{
+	background: transparent;
+	border: 1px solid #000000;
+	font-size: 12px;
+	font-weight: 700;
+	color: rgba(0, 0, 0, 1);
+}
+.bottom-design-section .clothes-img img{
+	position: absolute;
+	right: 105px;
+	top: -49%;
+}

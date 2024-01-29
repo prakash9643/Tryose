@@ -1,0 +1,38 @@
+<svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="g1935">
+<g id="g1937">
+<g id="Clip path group">
+<mask id="mask0_66_3197" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="51" height="51">
+<g id="clipPath1943">
+<path id="path1941" d="M51 -1.52588e-05L-1.08002e-05 -1.97174e-05L-1.52588e-05 51L51 51L51 -1.52588e-05Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_66_3197)">
+<g id="g1939">
+<g id="g1945">
+<path id="path1947" d="M49.0078 10.957L49.0078 5.97656C49.0078 3.77599 47.2239 1.99218 45.0234 1.99218L40.043 1.99218" stroke="#FE2B54" stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g1949">
+<path id="path1951" d="M49.0078 40.043L49.0078 45.0234C49.0078 47.224 47.2239 49.0078 45.0234 49.0078L40.043 49.0078" stroke="#FE2B54" stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g1953">
+<path id="path1955" d="M1.99218 10.957L1.99218 5.97656C1.99218 3.77599 3.77609 1.99218 5.97656 1.99218L10.957 1.99218" stroke="#FE2B54" stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g1957">
+<path id="path1959" d="M1.99218 40.043L1.99218 45.0234C1.99218 47.224 3.77609 49.0078 5.97656 49.0078L10.957 49.0078" stroke="#FE2B54" stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g1961">
+<path id="path1963" d="M12.2375 15.89L25.5001 20.7113L38.5947 15.89" stroke="black" stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g1965">
+<path id="path1967" d="M10.5586 23.6075L10.5586 17.5323C10.5586 16.1182 11.4355 14.8541 12.7556 14.3654L24.3394 10.076C25.0885 9.7986 25.9115 9.7986 26.6606 10.076L38.2444 14.3654C39.5644 14.8541 40.4414 16.1182 40.4414 17.5323L40.4414 33.4811C40.4414 34.8951 39.5644 36.1592 38.2444 36.648L26.6606 40.9374C25.9115 41.2147 25.0885 41.2147 24.3393 40.9374L12.7556 36.648C11.4355 36.1592 10.5586 34.8951 10.5586 33.4811" stroke="black" stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g1969">
+<path id="path1971" d="M25.5 20.7114L25.5 39.5107" stroke="black" stroke-width="4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

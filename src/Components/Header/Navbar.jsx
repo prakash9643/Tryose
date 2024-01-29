@@ -3,7 +3,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../Assests/logo.png";
 import logo_text from "../../Assests/logo-text.png";
+import Fav from "../../Assests/mdi_favorite.svg";
+import Profile from "../../Assests/healthicons.svg";
 import "./Navbar.css";
+
 
 function Navbar() {
   return (
@@ -40,7 +43,7 @@ function Navbar() {
       <div className="navbar-middle">
         <h1>DESIGNED FOR THE PEOPLE OF TOMORROW</h1>
       </div>
-      <nav className="navbar">
+      <nav className="navbar d-flex aling-items-center justify-content-between">
         <ul className="navbar-links main-menu">
           <Link className="Navbaritems" to="/">
             MEN
@@ -57,6 +60,23 @@ function Navbar() {
           <Link className="Navbaritems" to="/about">
             Your Designs
           </Link>
+        </ul>
+        <ul className="user-icon">
+          <li>
+            <span>
+              <img src={Fav} />
+            </span>
+          </li>
+          <li>
+            <span>
+              <img src={Fav} />
+            </span>
+          </li>
+          <li>
+            <span>
+              <img src={Profile} />
+            </span>
+          </li>
         </ul>
       </nav>
     </div>

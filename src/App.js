@@ -9,8 +9,9 @@ import Product_home from './Components/Page/Product_home';
 import Product_detail from './Components/Page/Product_detail';
 import Cart from './Components/Page/cart-page';
 import CartList from './Components/Page/cart-list-page';
-import Prodcut_Address from './Components/Page/Product-detail-address'
-import Checkout from './Components/Page/checkout'
+import Prodcut_Address from './Components/Page/Product-detail-address';
+import Checkout from './Components/Page/checkout';
+import Customise from './Components/Page/customise';
 
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -22,6 +23,7 @@ function App() {
       <ShopNowSection />
       <Customer />
       <Product_home />
+      <Customise />
       <Product_detail />
       <Cart />
       <CartList />

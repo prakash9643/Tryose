@@ -59,4 +59,29 @@
 	font-weight: 400;
 	line-height: 25px;
 	text-transform: uppercase;
+	transition: .18s all linear;
+}
+.main-menu a:hover{
+	color: #FE2B54;
+}
+.user-icon{
+	padding-left: 0;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	margin: 0;
+}
+.user-icon li span{
+	width: 39px;
+	height: 39px;
+	border: 2px solid #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	transition: .18s ease-in-out;
+}
+.user-icon li:hover span{
+	border-color: #FE2B54 !important;
 }
