@@ -232,26 +232,26 @@ const Prodcut_address = () => {
 							</div>
 							<div className="upi-cash-option">
 								<div className="payment-upi">
+									<input type="radio" name="size" id="phonepe" class="form__radio-input" />
 									<label class="form__label-radio form__radio-label" for="phonepe">
-										<input type="radio" name="size" id="phonepe" class="form__radio-input" />
 										<img src={Phonepe} alt={Phonepe} />
 									</label>
 								</div>
 								<div className="payment-upi">
+									<input type="radio" name="size" id="gpay" class="form__radio-input" />
 									<label class="form__label-radio form__radio-label" for="gpay">
-										<input type="radio" name="size" id="gpay" class="form__radio-input" />
 										<img src={Gpay} alt={Gpay} />
 									</label>
 								</div>
 								<div className="payment-upi">
+									<input type="radio" name="size" id="paytm" class="form__radio-input" />
 									<label class="form__label-radio form__radio-label" for="paytm">
-										<input type="radio" name="size" id="paytm" class="form__radio-input" />
 										<img src={Paytm} alt={Paytm} />
 									</label>
 								</div>
 								<div className="payment-upi">
+									<input type="radio" name="size" id="cash" class="form__radio-input" />
 									<label class="form__label-radio form__radio-label" for="cash">
-										<input type="radio" name="size" id="cash" class="form__radio-input" />
 										<img src={Cash} alt={Cash} />
 									</label>
 								</div>

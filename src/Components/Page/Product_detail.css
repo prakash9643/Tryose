@@ -940,16 +940,17 @@
 	gap: 24px;
 	justify-content: center;
 }
-.upi-cash-option .payment-upi{
+.upi-cash-option .payment-upi label{
 	width: 116px;
 	height: 116px;
 	background: #e6e6e6;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-.upi-cash-option .payment-upi label{
 	padding-left: 0 !important;
+}
+.upi-cash-option .payment-upi .form__radio-input:checked ~ .form__label-radio{
+	background: #FE2B54;
 }
 .payment-mothod-options{
 	display: flex;
