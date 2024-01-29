@@ -1,9 +1,35 @@
 /* Banner.css */
+.banner-slider{
+  position: relative;
+  text-align: left;
+}
+.banner-slider .carousel .slide{
+  text-align: left !important;
+}
+.banner-slider .carousel .slide img{
+  width: 500px;
+}
+.banner-slider .control-dots{
+  margin: 28px 0 !important;
+}
+.banner-slider .control-dots .dot{
+  background: #FBFBFB !important;
+  opacity: 1 !important;
+}
+.banner-slider .control-dots .dot.selected{
+  background: #000000 !important;
+  width: 100px;
+  height: 5px;
+  border-radius: 50px;
+}
 .banner {
   display: flex;
   justify-content: space-between;
   background: #FE2B54;
   padding: 2rem 0;
+}
+.banner-slider .carousel .control-dots{
+  bottom: 0 !important;
 }
 .banner .text .Customize {
   font-size: 104px;

@@ -5,6 +5,8 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import StarRating from "../Header/StarRating"; // Assuming you have a StarRating component
 import bannerimage from "../../Assests/banner_t-shit.png";
 import "./Banner.css";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import productImage1 from "../../Assests/Product1.png";
 import productImage2 from "../../Assests/Product1.png";
@@ -31,21 +33,53 @@ const Banner = () => {
   return (
     <div>
       <section>
-        <div className="banner">
-          <div className="text">
-            <h1 className="Customize">CUSTOMIZE</h1>
-            <h2 className="banner-text">Clothing's</h2>
-            <div className="describe">
-              <p>
-                design your OWN  clothes , express the world your true trend design your OWN  clothes , express the world your true trenddesign your OWN  clothes , express the world your true trenddesign your OWN  clothes , express the world your true trend
-              </p>
+        <Carousel className="review-slider banner-slider">
+          <div className="banner">
+            <div className="text">
+              <h1 className="Customize">CUSTOMIZE</h1>
+              <h2 className="banner-text">Clothing's</h2>
+              <div className="describe">
+                <p>
+                  design your OWN  clothes , express the world your true trend design your OWN  clothes , express the world your true trenddesign your OWN  clothes , express the world your true trenddesign your OWN  clothes , express the world your true trend
+                </p>
+              </div>
+              <button className="discover-button">Discover more</button>
             </div>
-            <button className="discover-button">Discover more</button>
+            <div className="image">
+              <img src={bannerimage} alt="Banner" />
+            </div>
           </div>
-          <div className="image">
-            <img src={bannerimage} alt="Banner" />
+          <div className="banner">
+            <div className="text">
+              <h1 className="Customize">CUSTOMIZE</h1>
+              <h2 className="banner-text">Clothing's</h2>
+              <div className="describe">
+                <p>
+                  design your OWN  clothes , express the world your true trend design your OWN  clothes , express the world your true trenddesign your OWN  clothes , express the world your true trenddesign your OWN  clothes , express the world your true trend
+                </p>
+              </div>
+              <button className="discover-button">Discover more</button>
+            </div>
+            <div className="image">
+              <img src={bannerimage} alt="Banner" />
+            </div>
           </div>
-        </div>
+          <div className="banner">
+            <div className="text">
+              <h1 className="Customize">CUSTOMIZE</h1>
+              <h2 className="banner-text">Clothing's</h2>
+              <div className="describe">
+                <p>
+                  design your OWN  clothes , express the world your true trend design your OWN  clothes , express the world your true trenddesign your OWN  clothes , express the world your true trenddesign your OWN  clothes , express the world your true trend
+                </p>
+              </div>
+              <button className="discover-button">Discover more</button>
+            </div>
+            <div className="image">
+              <img src={bannerimage} alt="Banner" />
+            </div>
+          </div>
+        </Carousel>
       </section>
       <section>
         <div className="homepage">
